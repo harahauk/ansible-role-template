@@ -12,7 +12,7 @@ Requirements
 This role might "work" on a wide range of Linux-distributions, but below are the distros that are actually tested.
 Currently expected to work on the following distributions:
 - RHEL-based (RockyLinux, AlmaLinux)
-- Debian-based (Kali, Debian, Ubuntu)
+- Debian-based (Kali, Debian, Ubuntu)  
 Actually tested to be working on:
 - Debian 12 "Bookworm"
 - Red Hat Linux 9
@@ -51,7 +51,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 Example Playbook
 ----------------
-    - hosts: docker_hosts
+    - hosts: docker_hosts # Define a group or a hostname as a target
       roles:
       - ansible-docker    # Change to the folder you checked this role out as
       vars:
