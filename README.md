@@ -4,13 +4,13 @@
 # Project maturity (- Dev|@ Staging|+ Prod):
 - Dev
 ```
-This is an [Ansible](https://www.ansible.com/)-role which installs and configures `something` and `something-more` on the target host.
+This is an [Ansible](https://www.ansible.com/)-role which installs and configures `something` and `something-more` on the target host. [Links to additonal documentation](htts://www.google.com).
 
 Requirements
 ------------
 ## Linux
 This role might "work" on a wide range of Linux-distributions, but below are the distros that are actually tested.
-Currently expected to work on the following distributions:  
+Currently expected to work on the following distributions:
 - RHEL-based (RockyLinux, AlmaLinux)
 - Debian-based (Kali, Debian, Ubuntu)
 Actually tested to be working on:
@@ -64,7 +64,7 @@ Example Playbook
 License
 -------
 
-[The unlicense](./LICENSE)
+[The Unlicense](./LICENSE)
 
 
 Author Information
