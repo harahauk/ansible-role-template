@@ -8,19 +8,16 @@ This is an [Ansible](https://www.ansible.com/)-role which installs and configure
 
 Requirements
 ------------
-
 ## Linux
-
 This role might "work" on a wide range of Linux-distributions, but below are the distros that are actually tested.
-Currently supports following distributions
+Currently expected to work on the following distributions:  
 - RHEL-based (RockyLinux, AlmaLinux)
 - Debian-based (Kali, Debian, Ubuntu)
-xor:
-  - Debian 12 "Bookworm"
-  - Red Hat Linux 9
-  - AlmaLinux 9
-  - Fedora 38
-
+Actually tested to be working on:
+- Debian 12 "Bookworm"
+- Red Hat Linux 9
+- AlmaLinux 9
+- Fedora 38
 
 ## Ansible
 You need ansible [optional install script](./templates/install_ansible.sh), and the module 'community general' (which often is pre-installed with your ansible-distribution) and the "community docker" module.
@@ -54,7 +51,6 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 Example Playbook
 ----------------
-
     - hosts: docker_hosts
       roles:
       - ansible-docker    # Change to the folder you checked this role out as
